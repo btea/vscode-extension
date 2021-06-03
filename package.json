@@ -1,0 +1,23 @@
+{
+    "name": "vscode-extension",
+    "version": "1.0.0",
+    "description": "[vscode 插件常用 API 总结](https://www.cnblogs.com/liuxianan/p/vscode-plugin-common-api.html)   [vscode 官网 API](https://code.visualstudio.com/api/references/vscode-api)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "vscode": "^1.56.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/btea/vscode-extension.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/btea/vscode-extension/issues"
+    },
+    "homepage": "https://github.com/btea/vscode-extension#readme"
+}
