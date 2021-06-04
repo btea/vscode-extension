@@ -1,12 +1,17 @@
 import vscode from "vscode";
+import { startRun } from "./install";
+import { uninstall } from "./uninstall";
 
 function activate(context: vscode.ExtensionContext) {
-	console.log(context);
-	console.log(vscode);
+	// console.log(context);
+	// console.log(vscode);
+	startRun();
 	console.log("start");
 }
 
-function deactivate() {}
+function deactivate() {
+	uninstall();
+}
 
 exports.activate = activate;
 module.exports = {
