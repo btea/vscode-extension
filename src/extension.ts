@@ -1,8 +1,8 @@
-const vscode = require("vscode");
+import vscode from "vscode";
 
-function activate(context) {
+function activate(context: vscode.ExtensionContext) {
 	console.log(context);
-	console.log(vscode.window.activeTextEditor.document.getText());
+	console.log(vscode);
 	console.log("start");
 }
 
