@@ -4,7 +4,7 @@
 export function addStyle(): string {
 	let style = `<style type="text/css" media="screen" class="bulingbuling">\n`;
 	style += addTextLight();
-	style += `\n  </style>`;
+	style += `\n</style>`;
 	return style;
 }
 
