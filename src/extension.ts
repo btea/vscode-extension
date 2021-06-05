@@ -2,7 +2,7 @@ import vscode from "vscode";
 import { startRun } from "./install";
 import { uninstall } from "./uninstall";
 
-function activate(context: vscode.ExtensionContext) {
+function activate(context: vscode.ExtensionContext): void {
 	// console.log(context);
 	// console.log(vscode);
 	startRun();

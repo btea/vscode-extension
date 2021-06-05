@@ -3,7 +3,7 @@ import { removeStyle } from "./addStyle";
 import { updateHtml } from "./install";
 import config from "./config";
 
-export function uninstall() {
+export function uninstall(): void {
 	const text = getHtml();
 	const init = text.replace(removeStyle(), "");
 	updateHtml(init);
